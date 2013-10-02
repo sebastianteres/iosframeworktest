@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BF9CE91317FB81400067C0C1 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BF9CE91417FB81400067C0C1 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				BF9CE91917FB81A80067C0C1 /* ShellScript */,
+			);
+			dependencies = (
+				BF9CE92C17FB83830067C0C1 /* PBXTargetDependency */,
+				BF9CE91817FB814F0067C0C1 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BF9CE92017FB82B80067C0C1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9CE91F17FB82B80067C0C1 /* CoreFoundation.framework */; };
+		BF9CE92617FB82B80067C0C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9CE92417FB82B80067C0C1 /* InfoPlist.strings */; };
+		BF9CE97617FB85CE0067C0C1 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9CE97317FB85CE0067C0C1 /* TestViewController.h */; };
+		BF9CE97717FB85CE0067C0C1 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9CE97417FB85CE0067C0C1 /* TestViewController.m */; };
+		BF9CE97817FB85D60067C0C1 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9CE97517FB85CE0067C0C1 /* TestViewController.xib */; };
+		BFEEBC9517FB7BC20073C67E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEEBC9417FB7BC20073C67E /* Foundation.framework */; };
+		BFEEBC9A17FB7BC20073C67E /* testitiy.h in Copy Files */ = {isa = PBXBuildFile; fileRef = BFEEBC9917FB7BC20073C67E /* testitiy.h */; };
+		BFEEBC9C17FB7BC20073C67E /* testitiy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEEBC9B17FB7BC20073C67E /* testitiy.m */; };
+		BFEEBCA317FB7BC20073C67E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEEBCA217FB7BC20073C67E /* XCTest.framework */; };
+		BFEEBCA417FB7BC20073C67E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEEBC9417FB7BC20073C67E /* Foundation.framework */; };
+		BFEEBCA617FB7BC20073C67E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEEBCA517FB7BC20073C67E /* UIKit.framework */; };
+		BFEEBCA917FB7BC20073C67E /* libtestitiy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEEBC9117FB7BC20073C67E /* libtestitiy.a */; };
+		BFEEBCAF17FB7BC20073C67E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFEEBCAD17FB7BC20073C67E /* InfoPlist.strings */; };
+		BFEEBCB117FB7BC20073C67E /* testitiyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEEBCB017FB7BC20073C67E /* testitiyTests.m */; };
+		BFEEBCC617FB7D600073C67E /* testitiy.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEEBC9917FB7BC20073C67E /* testitiy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF9CE91717FB814F0067C0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFEEBC8917FB7BC20073C67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFEEBC9017FB7BC20073C67E;
+			remoteInfo = testitiy;
+		};
+		BF9CE92B17FB83830067C0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFEEBC8917FB7BC20073C67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9CE91D17FB82B80067C0C1;
+			remoteInfo = TestityResources;
+		};
+		BFEEBCA717FB7BC20073C67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFEEBC8917FB7BC20073C67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFEEBC9017FB7BC20073C67E;
+			remoteInfo = testitiy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFEEBC8F17FB7BC20073C67E /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BFEEBC9A17FB7BC20073C67E /* testitiy.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF9CE91E17FB82B80067C0C1 /* testity.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testity.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9CE91F17FB82B80067C0C1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BF9CE92317FB82B80067C0C1 /* TestityResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestityResources-Info.plist"; sourceTree = "<group>"; };
+		BF9CE92517FB82B80067C0C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF9CE92717FB82B80067C0C1 /* TestityResources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestityResources-Prefix.pch"; sourceTree = "<group>"; };
+		BF9CE97317FB85CE0067C0C1 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BF9CE97417FB85CE0067C0C1 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BF9CE97517FB85CE0067C0C1 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		BFEEBC9117FB7BC20073C67E /* libtestitiy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtestitiy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEEBC9417FB7BC20073C67E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFEEBC9817FB7BC20073C67E /* testitiy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testitiy-Prefix.pch"; sourceTree = "<group>"; };
+		BFEEBC9917FB7BC20073C67E /* testitiy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testitiy.h; sourceTree = "<group>"; };
+		BFEEBC9B17FB7BC20073C67E /* testitiy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testitiy.m; sourceTree = "<group>"; };
+		BFEEBCA117FB7BC20073C67E /* testitiyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testitiyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEEBCA217FB7BC20073C67E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFEEBCA517FB7BC20073C67E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFEEBCAC17FB7BC20073C67E /* testitiyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testitiyTests-Info.plist"; sourceTree = "<group>"; };
+		BFEEBCAE17FB7BC20073C67E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFEEBCB017FB7BC20073C67E /* testitiyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testitiyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9CE91B17FB82B80067C0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9CE92017FB82B80067C0C1 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEEBC8E17FB7BC20073C67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEEBC9517FB7BC20073C67E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEEBC9E17FB7BC20073C67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEEBCA317FB7BC20073C67E /* XCTest.framework in Frameworks */,
+				BFEEBCA617FB7BC20073C67E /* UIKit.framework in Frameworks */,
+				BFEEBCA917FB7BC20073C67E /* libtestitiy.a in Frameworks */,
+				BFEEBCA417FB7BC20073C67E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9CE92117FB82B80067C0C1 /* TestityResources */ = {
+			isa = PBXGroup;
+			children = (
+				BF9CE92217FB82B80067C0C1 /* Supporting Files */,
+			);
+			path = TestityResources;
+			sourceTree = "<group>";
+		};
+		BF9CE92217FB82B80067C0C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9CE92317FB82B80067C0C1 /* TestityResources-Info.plist */,
+				BF9CE92417FB82B80067C0C1 /* InfoPlist.strings */,
+				BF9CE92717FB82B80067C0C1 /* TestityResources-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFEEBC8817FB7BC20073C67E = {
+			isa = PBXGroup;
+			children = (
+				BFEEBC9617FB7BC20073C67E /* testitiy */,
+				BFEEBCAA17FB7BC20073C67E /* testitiyTests */,
+				BF9CE92117FB82B80067C0C1 /* TestityResources */,
+				BFEEBC9317FB7BC20073C67E /* Frameworks */,
+				BFEEBC9217FB7BC20073C67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFEEBC9217FB7BC20073C67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFEEBC9117FB7BC20073C67E /* libtestitiy.a */,
+				BFEEBCA117FB7BC20073C67E /* testitiyTests.xctest */,
+				BF9CE91E17FB82B80067C0C1 /* testity.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFEEBC9317FB7BC20073C67E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFEEBC9417FB7BC20073C67E /* Foundation.framework */,
+				BFEEBCA217FB7BC20073C67E /* XCTest.framework */,
+				BFEEBCA517FB7BC20073C67E /* UIKit.framework */,
+				BF9CE91F17FB82B80067C0C1 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFEEBC9617FB7BC20073C67E /* testitiy */ = {
+			isa = PBXGroup;
+			children = (
+				BFEEBC9917FB7BC20073C67E /* testitiy.h */,
+				BFEEBC9B17FB7BC20073C67E /* testitiy.m */,
+				BFEEBC9717FB7BC20073C67E /* Supporting Files */,
+				BF9CE97317FB85CE0067C0C1 /* TestViewController.h */,
+				BF9CE97417FB85CE0067C0C1 /* TestViewController.m */,
+				BF9CE97517FB85CE0067C0C1 /* TestViewController.xib */,
+			);
+			path = testitiy;
+			sourceTree = "<group>";
+		};
+		BFEEBC9717FB7BC20073C67E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFEEBC9817FB7BC20073C67E /* testitiy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFEEBCAA17FB7BC20073C67E /* testitiyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFEEBCB017FB7BC20073C67E /* testitiyTests.m */,
+				BFEEBCAB17FB7BC20073C67E /* Supporting Files */,
+			);
+			path = testitiyTests;
+			sourceTree = "<group>";
+		};
+		BFEEBCAB17FB7BC20073C67E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFEEBCAC17FB7BC20073C67E /* testitiyTests-Info.plist */,
+				BFEEBCAD17FB7BC20073C67E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BFEEBCC517FB7D520073C67E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEEBCC617FB7D600073C67E /* testitiy.h in Headers */,
+				BF9CE97617FB85CE0067C0C1 /* TestViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF9CE91D17FB82B80067C0C1 /* TestityResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9CE92817FB82B80067C0C1 /* Build configuration list for PBXNativeTarget "TestityResources" */;
+			buildPhases = (
+				BF9CE91A17FB82B80067C0C1 /* Sources */,
+				BF9CE91B17FB82B80067C0C1 /* Frameworks */,
+				BF9CE91C17FB82B80067C0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestityResources;
+			productName = TestityResources;
+			productReference = BF9CE91E17FB82B80067C0C1 /* testity.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BFEEBC9017FB7BC20073C67E /* testitiy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFEEBCB417FB7BC20073C67E /* Build configuration list for PBXNativeTarget "testitiy" */;
+			buildPhases = (
+				BFEEBC8D17FB7BC20073C67E /* Sources */,
+				BFEEBC8E17FB7BC20073C67E /* Frameworks */,
+				BFEEBC8F17FB7BC20073C67E /* Copy Files */,
+				BFEEBCC517FB7D520073C67E /* Headers */,
+				BF9CE91217FB7FB10067C0C1 /* Prepare Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testitiy;
+			productName = testitiy;
+			productReference = BFEEBC9117FB7BC20073C67E /* libtestitiy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFEEBCA017FB7BC20073C67E /* testitiyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFEEBCB717FB7BC20073C67E /* Build configuration list for PBXNativeTarget "testitiyTests" */;
+			buildPhases = (
+				BFEEBC9D17FB7BC20073C67E /* Sources */,
+				BFEEBC9E17FB7BC20073C67E /* Frameworks */,
+				BFEEBC9F17FB7BC20073C67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFEEBCA817FB7BC20073C67E /* PBXTargetDependency */,
+			);
+			name = testitiyTests;
+			productName = testitiyTests;
+			productReference = BFEEBCA117FB7BC20073C67E /* testitiyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFEEBC8917FB7BC20073C67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sebastian Perez Teres";
+			};
+			buildConfigurationList = BFEEBC8C17FB7BC20073C67E /* Build configuration list for PBXProject "testitiy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFEEBC8817FB7BC20073C67E;
+			productRefGroup = BFEEBC9217FB7BC20073C67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFEEBC9017FB7BC20073C67E /* testitiy */,
+				BFEEBCA017FB7BC20073C67E /* testitiyTests */,
+				BF9CE91317FB81400067C0C1 /* Framework */,
+				BF9CE91D17FB82B80067C0C1 /* TestityResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9CE91C17FB82B80067C0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9CE97817FB85D60067C0C1 /* TestViewController.xib in Resources */,
+				BF9CE92617FB82B80067C0C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEEBC9F17FB7BC20073C67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEEBCAF17FB7BC20073C67E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF9CE91217FB7FB10067C0C1 /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"";
+		};
+		BF9CE91917FB81A80067C0C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9CE91A17FB82B80067C0C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEEBC8D17FB7BC20073C67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9CE97717FB85CE0067C0C1 /* TestViewController.m in Sources */,
+				BFEEBC9C17FB7BC20073C67E /* testitiy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEEBC9D17FB7BC20073C67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEEBCB117FB7BC20073C67E /* testitiyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF9CE91817FB814F0067C0C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFEEBC9017FB7BC20073C67E /* testitiy */;
+			targetProxy = BF9CE91717FB814F0067C0C1 /* PBXContainerItemProxy */;
+		};
+		BF9CE92C17FB83830067C0C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9CE91D17FB82B80067C0C1 /* TestityResources */;
+			targetProxy = BF9CE92B17FB83830067C0C1 /* PBXContainerItemProxy */;
+		};
+		BFEEBCA817FB7BC20073C67E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFEEBC9017FB7BC20073C67E /* testitiy */;
+			targetProxy = BFEEBCA717FB7BC20073C67E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF9CE92417FB82B80067C0C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9CE92517FB82B80067C0C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFEEBCAD17FB7BC20073C67E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFEEBCAE17FB7BC20073C67E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF9CE91517FB81400067C0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+			};
+			name = Debug;
+		};
+		BF9CE91617FB81400067C0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+			};
+			name = Release;
+		};
+		BF9CE92917FB82B80067C0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestityResources/TestityResources-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestityResources/TestityResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = testity;
+				SDKROOT = iphoneos6.1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BF9CE92A17FB82B80067C0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestityResources/TestityResources-Prefix.pch";
+				INFOPLIST_FILE = "TestityResources/TestityResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = testity;
+				SDKROOT = iphoneos6.1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BFEEBCB217FB7BC20073C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFEEBCB317FB7BC20073C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFEEBCB517FB7BC20073C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/testitiy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testitiy/testitiy-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SDKROOT = iphoneos6.1;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		BFEEBCB617FB7BC20073C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/testitiy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testitiy/testitiy-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SDKROOT = iphoneos6.1;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		BFEEBCB817FB7BC20073C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testitiy/testitiy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "testitiyTests/testitiyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFEEBCB917FB7BC20073C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testitiy/testitiy-Prefix.pch";
+				INFOPLIST_FILE = "testitiyTests/testitiyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9CE91417FB81400067C0C1 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9CE91517FB81400067C0C1 /* Debug */,
+				BF9CE91617FB81400067C0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF9CE92817FB82B80067C0C1 /* Build configuration list for PBXNativeTarget "TestityResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9CE92917FB82B80067C0C1 /* Debug */,
+				BF9CE92A17FB82B80067C0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFEEBC8C17FB7BC20073C67E /* Build configuration list for PBXProject "testitiy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEEBCB217FB7BC20073C67E /* Debug */,
+				BFEEBCB317FB7BC20073C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFEEBCB417FB7BC20073C67E /* Build configuration list for PBXNativeTarget "testitiy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEEBCB517FB7BC20073C67E /* Debug */,
+				BFEEBCB617FB7BC20073C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFEEBCB717FB7BC20073C67E /* Build configuration list for PBXNativeTarget "testitiyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEEBCB817FB7BC20073C67E /* Debug */,
+				BFEEBCB917FB7BC20073C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFEEBC8917FB7BC20073C67E /* Project object */;
+}
